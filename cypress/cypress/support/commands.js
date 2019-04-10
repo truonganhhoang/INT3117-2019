@@ -24,8 +24,6 @@
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
-
-/*
 describe('Kiem tra dang nhap', function() {
 
     context('Đăng nhập', function(){
@@ -44,15 +42,4 @@ describe('Kiem tra dang nhap', function() {
             //cy.get('#userDropdown > span').should('contain', '(user_name)'); // type user_name
         })
     })
-})*/
-
-/*
-Cypress.Commands.add('login', ({ url, user_name, password }) => {
-    cy.visit(url)
-    cy.contains('Đăng nhập').click()
-    cy.get('#user_email').type(user_name)
-    cy.get('#user_password').type(password).type('{enter}')
-    cy.url().should('include', 'https://hoclieu.sachmem.vn')
-    cy.wait(2000);
-});
-*/
+})
