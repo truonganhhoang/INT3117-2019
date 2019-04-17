@@ -35,9 +35,7 @@ private static final int HOUR_VALUE_TO_DEGREES_STEP_SIZE = VISIBLE_DEGREES_STEP_
 20    }
 ```
 ## Bước 1 Lập flowchart:
-
-![](flowchart.png)
-
+![](flowchart_.png)
 ## Bước 2 Liệt kê các đường đi:
 ### Đuờng đi 1: 
     1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 19
