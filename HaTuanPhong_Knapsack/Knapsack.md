@@ -4,8 +4,8 @@
 #### https://github.com/TheAlgorithms/Java/blob/master/Dynamic%20Programming/Knapsack.java
 ```Java
 1 private static int knapSack(int W, int wt[], int val[], int n)
-2 	{
-3 		int i, w;
+2 {
+3 	int i, w;
 4 	int rv[][] = new int[n+1][W+1];    //rv means return value
 5 	
 6 	// Build table rv[][] in bottom up manner
