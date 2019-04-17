@@ -35,9 +35,9 @@
 #### **x==0 &rarr return 0**
 
 ### **Path2**
-#### **x!=0 **
-#### **y > INT_MAX / 10 || y < INT_MIN / 10 **
+#### x!=0 
+#### y > INT_MAX / 10 || y < INT_MIN / 10 
 
 ### **Path1**
-#### **x!=0 **
-#### **y > INT_MAX / 10 || y < INT_MIN / 10 **
+#### x!=0 
+#### y > INT_MAX / 10 || y < INT_MIN / 10 
