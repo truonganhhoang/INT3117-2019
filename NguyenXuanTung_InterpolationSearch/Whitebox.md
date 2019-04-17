@@ -1,8 +1,4 @@
-H1 Bài tập kiểm thử dòng điều kiện
-
-##Headers (Underline)
-
-H1 Header (Underline)
+# Bài tập kiểm thử dòng điều kiện
 
 **Họ tên: Nguyễn Xuân Tùng**
 **MSSV: 16020297**
