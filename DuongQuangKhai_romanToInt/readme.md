@@ -57,27 +57,27 @@
 
 ### **Đường số 1**: 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 23
 
-#### $x_{1}$
-#### prev = ' '
-#### sum = 0
-#### newPrev = 0
-#### i = length $x_{1}$
-#### false: $i < 0 <=>$ sum 
+- $x_{1}$
+- prev = ' '
+- sum = 0
+- newPrev = 0
+- i = length $x_{1}$
+- false: $i < 0 <=>$ sum 
 
 ### **Đường số 2**: 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 15 &rarr; 16 &rarr; 17 &rarr; 21 &rarr; 23
 
-#### $x$
-#### prev = ' '
-#### sum = 0
-#### newPrev = 0
-#### i = length $x$
-#### $x_{2}$ = $x_[i]$
-#### true: $i >= 0 <=> c = x[i]$
-#### true: $prev != " "$
-#### true: $x_{2}$ > newPrev <=> newPrev = $x_{3}$
-#### currentNum = $x_{4}$
-#### true: $sum += currentNum$
-#### prev = $x_{2}$
+- $x$
+- prev = ' '
+- sum = 0
+- newPrev = 0
+- i = length $x$
+- $x_{2}$ = $x_[i]$
+- true: $i >= 0 <=> c = x[i]$
+- true: $prev != " "$
+- true: $x_{2}$ > newPrev <=> newPrev = $x_{3}$
+- currentNum = $x_{4}$
+- true: $sum += currentNum$
+- prev = $x_{2}$
 
 
 ### **Đường số 3**: 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 6 &rarr; 7 &rarr; 11 &rarr; 12 &rarr; 15 &rarr; 16 &rarr; 17 &rarr; 21 &rarr; 23
