@@ -29,7 +29,7 @@ bool isPossible(int mat[9][9],int i,int j,int no){
 
 ## **Bước 1: Lập đồ thị**
 
-![](oddEvenSort.png)
+![](isPossible.png)
 
 ## **Bước 2: Liệt kê các đường đi**
 
