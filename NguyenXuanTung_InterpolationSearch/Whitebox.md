@@ -7,20 +7,20 @@
 
 ## Hàm đã chọn:
 
-    	public int find(int array[], int key) {
-    		int start = 0, end = (array.length - 1);
-    		while (start <= end && key >= array[start] && key <= array[end])
-    		{
-    			int pos = start + (((end-start) / (array[end]-array[start]))*(key - array[start]));
-    			if (array[pos] == key)
-    				return pos;
-    			if (array[pos] < key)
-    				start = pos + 1;
-    			else
-    				end = pos - 1;
-    		}
-    		return -1;
-    	}
+    1	public int find(int array[], int key) {
+    2		int start = 0, end = (array.length - 1);
+    3		while (start <= end && key >= array[start] && key <= array[end])
+    4		{
+    5			int pos = start + (((end-start) / (array[end]-array[start]))*(key - array[start]));
+    6			if (array[pos] == key)
+    7				return pos;
+    8			if (array[pos] < key)
+    9				start = pos + 1;
+    10			else
+    11				end = pos - 1;
+    12		}
+    13		return -1;
+    14	}
 
 ## Bước 1: Lập đồ thị
 
