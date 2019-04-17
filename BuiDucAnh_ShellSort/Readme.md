@@ -26,4 +26,4 @@
 
 ## **Bước 1: Lập đồ thị**
 
-![](shellsort.png)
+![](ShellSort.png)
