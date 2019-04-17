@@ -1,39 +1,85 @@
-# Bài tập kiểm thử whitebox cho chức năng CountChar
-### Họ và tên : Nguyễn Trọng Khải
-### MSSV : 16022406
-### Lớp : K61-CACLC2
-## Code CountChar
-Link repo : [CountChar](https://github.com/TheAlgorithms/Java/blob/master/Others/CountChar.java)
+# **Bài tập kiểm thử dòng điều kiện**
+#### Họ và tên: Nguyễn Văn Hoàng
+#### MSSV: 16020231
+#### Source: [Github](https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/Sorting/NumericStringSort.cpp)
+--------------------------------
+## Hàm đã chọn:
+```C++
+1.    bool NumericSort(string a, string b)
+2.    {
+3.      while(a[0]=='0')
+4.      {
+5.        a.erase(a.begin());
+6.      }
+7.      while(b[0]=='0')
+8.      {
+9.        b.erase(b.begin());
+10.     }  
+11.     int n=a.length();
+12.     int m=b.length();
+13.     if(n==m)
+14.       return a<b;
+15.     return n<m;
+16.   }
 ```
-private static int CountCharacters(String str) {
-
-    	int count = 0;
-
-    	if(str == "" || str == null) //Exceptions
-		{ 
-			return 0; 
-		}
-
-        for(int i = 0; i < str.length(); i++) {
-        	if(!Character.isWhitespace(str.charAt(i))) {
-        		count++;
-			}}
-
-        return count;
-     }
+--------------------------------
+## Bước 1: Lập flowchart
+![](flowchart.jpg)
+--------------------------------
+## Bước 2: Liệt kê các đường đi
+####   Path 1:
 ```
-## Đồ thị đường đi
-![flow-chart](https://user-images.githubusercontent.com/25638649/56298178-e5648880-615b-11e9-9edb-a6117f2a7092.png)
-## Liệt kê đường đi
-
-1. 1-2
-
-2. 1-2-3-4-9-10
-
-3. 1-2-3-4-5-6-7-8-9-10
-
-## Điều kiện đường đi
-
-- Path 1 : (str == "" || str == null) is True => return 0
-
-- Path 2 : (str == "" || str == null) is False i=0 => count
+(1->3->5)
+```
+####   Path 2:
+```
+(1->3->7->9)
+```
+####   Path 3:
+```
+(1->3->7->11->12->13->14)
+```
+####   Path 4:
+```
+(1->3->7->11->12->13->15)
+```
+--------------------------------
+## Bước 3: Lập phương trình cho mỗi đường đi
+#### Path 1: (1->3->5)
+```
+true if a[0] = '0'
+```
+#### Path 2: (1->3->7->9)
+```
+true if a[0] != '0' && b[0] = '0'
+```
+#### Path 3: (1->3->7->11->12->13->14)
+```
+true if a[0] != '0' && b[0] != '0' && n=m
+```
+#### Path 4: (1->3->7->11->12->13->15)
+```
+true if a[0] != '0' && b[0] != '0' && n!= m
+```
+--------------------------------
+## Bước 4: Tính giá trị mong đợi và tạo bộ kiểm thử
+#### Path 1: (1->3->5)
+```
+Input: a[0] = '0'
+Expected Output: a.erase(a.begin()) -> a[0] != '0'
+```
+#### Path 2: (1->3->7->9)
+```
+Input: a[0] != '0', b[0] = '0'
+Expected Ouput: b.erase(b.begin()) -> b[0] != '0'
+```
+#### Path 3: (1->3->7->11->12->13->14)
+```
+Input: a[0] != '0', b[0] != '0', n = 9, m = 9
+Expected Ouput: a < b ? true : false
+```
+#### Path 4: (1->3->7->11->12->13->15)
+```
+Input: a[0] != '0', b[0] != '0', n = 9, m = 8
+Expected Ouput: n < m ? true : false
+```
