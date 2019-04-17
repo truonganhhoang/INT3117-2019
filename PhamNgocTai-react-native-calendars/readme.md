@@ -2,8 +2,14 @@
 ### **- Họ và tên: Phạm Ngọc Tài**
 ### **- MSV: 16021415**
 ### **- Lớp: K61-CA-CLC2**
+<<<<<<< HEAD
 ## **<u>Hàm đã chọn</u>**
 ## **<u>https://github.com/wix/react-native-calendars/blob/master/scripts/release.js</u>**
+=======
+### **- Lớp: K61-CA-CLC2**
+## **<u>Hàm đã chọn</u>**
+## **<u>https://github.com/wix/react-native-calendars</u>**
+>>>>>>> 485d4ca290a60e6e42b409d8e331090b2706846f
 ```javascript
 1 function validateEnv() {
 2        if (!process.env.JENKINS_CI) {
