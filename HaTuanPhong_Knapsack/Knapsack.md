@@ -26,4 +26,4 @@
 21 }
 ```
 ## **<u>Flowchart</u>**
-![](Knapsack.PNG)
+![](Knapsack.png)
