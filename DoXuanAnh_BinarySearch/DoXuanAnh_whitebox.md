@@ -1,4 +1,7 @@
-# Báo cáo test whitebox
+# Báo cáo test whitebox cho function Binary Search
+### Họ và tên: Đỗ Xuân Anh
+### MSSV: 16020192
+### Lớp: K61-CA-CLC1
 ## Code Binary Search
 Link repo github: [Binary Search](https://github.com/TheAlgorithms/Java/blob/master/Searches/BinarySearch.java)
 ```java
@@ -17,14 +20,50 @@ Link repo github: [Binary Search](https://github.com/TheAlgorithms/Java/blob/mas
         return median;                                              //11
     }
 ```
-## Đồ thị đường đi
+## Bước 1: Đồ thị đường đi
 ![](flow_chart.png)
-## Liệt kê các đường đi
+## Bước 2: Liệt kê các đường đi
 ### Đường đi số 1: 1 &rarr; 2 &rarr;
 ### Đường đi số 2: 1 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 6
-### Đường đi số 2: 1 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 8 &rarr; 9
-### Đường đi số 2: 1 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 8 &rarr; 11
-## Phương trình đường đi cho mỗi đường đi
+### Đường đi số 3: 1 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 8 &rarr; 9
+### Đường đi số 4: 1 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 8 &rarr; 11
+## Bước 3: Lập phương trình đường đi
+**Cho dãy: x1, x2, ..., xn;** (x[i] <= x[i+1])<br>
+**Key = c; <br>**
 ### Đường đi số 1:
-> 1 &rarr; True <br>
-    right < left
+1. True &rarr; 1 <=> right < left
+2. return False
+### Đường đi số 2:
+1. False &rarr; 1 <=> right > left
+2. True &rarr; 5 <=> key < array[median]
+3. return BinarySearch(array, key, left, median-1)
+### Đường đi số 3:
+1. False &rarr; 1 <=> right > left
+2. False &rarr; 5 <=> key >= array[median]
+3. True &rarr; 8 <=> key > array[median]
+4. return BinarySearch(array, key, median+1, right)
+### Đường đi số 4:
+1. False &rarr; 1 <=> right > left
+2. False &rarr; 5 <=> key >= array[median]
+3. False &rarr; 8 <=> key = array[median]
+4. return True
+## Bước 4: Giải phương trình đường đi
+### Đường đi số 1:
+**Cho dãy: 2, 3, 4, 6, 7, 8, 9;**<br>
+**Key = 5; <br>**
+1. left=0, right=6 &rarr; median=3
+2. array[median]=6 > key=5
+3. left=0, right=2 &rarr; median=1
+4. array[median]=3 < key=5
+5. left=2, right=2 &rarr; median=2
+6. array[median]=4 < key=5
+7. right=2 < left=3 &rarr; return False
+### Đường đi số 2, 3 và 4:
+**Cho dãy: 2, 3, 4, 5, 6, 7, 8, 9;**<br>
+**Key = 5; <br>**
+1. left=0, right=7 &rarr; median=4
+2. array[median]=6 > key=5
+3. left=0, right=3 &rarr; median=2
+4. array[median]=4 < key=5
+5. left=3, right=3 &rarr; median=3
+6. array[median]=5 = key=5 &rarr; return True
