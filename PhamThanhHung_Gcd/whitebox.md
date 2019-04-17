@@ -28,5 +28,29 @@ Mã sinh viên : 16020236</p>
 Đường 2 : 1-3-6-13<br>
 Đường 3 : 1-3-6-7-8<br>
 Đường 4 : 1-3-6-7-10</p>
-<p><strong>Lập phương trình đường đi</strong>:</p>
+<p><strong>Lập phương trình đường đi</strong>:<br>
+<strong>Đường đi 1 :</strong><br>
+int num1, num2<br>
+num1=0<br>
+num2<br>
+<strong>Đường đi 2 :</strong><br>
+int num1, num2<br>
+num1!=0<br>
+num2=0<br>
+num1<br>
+<strong>Đường đi 3 :</strong><br>
+int num1, num2<br>
+num1!=0<br>
+num2!=0<br>
+num1&gt;num2<br>
+num1-=num2<br>
+<strong>Đường đi 4 :</strong><br>
+num1!=0<br>
+num2!=0<br>
+num1&lt;=num2<br>
+num2-=num1</p>
+<p><strong>Giải phương trình đường đi</strong><br>
+Ví dụ : num1 = 6 ; num2= 8<br>
+Ta chọn đường đi 4 : 1-3-6-7-10<br>
+Mẫu chung nhỏ nhất của num1 và num2 là : 8- 6 =2</p>
 
