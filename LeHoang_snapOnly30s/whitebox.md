@@ -64,7 +64,7 @@ private static final int HOUR_VALUE_TO_DEGREES_STEP_SIZE = VISIBLE_DEGREES_STEP_
                         <=> degrees % 30 = 0
                         <=> degrees = 30*m with m belong to N
 
-- Vậy hệ gồm 2 phương trình là:
+- Vậy hệ gồm:
         
         forceHigherOrLower = -1
         
@@ -75,7 +75,7 @@ private static final int HOUR_VALUE_TO_DEGREES_STEP_SIZE = VISIBLE_DEGREES_STEP_
                         <=> degrees = 30*m + n 
                                 with m,n belong to N
                                  and n < 30
-- Vậy hệ gồm 2 phương trình là:
+- Vậy hệ gồm:
 
         forceHigherOrLower = -1 
        
@@ -95,7 +95,7 @@ private static final int HOUR_VALUE_TO_DEGREES_STEP_SIZE = VISIBLE_DEGREES_STEP_
                 with m,n belong to N
                  and n<15
         
-- Vậy hệ gồm 3 phương trình là:
+- Vậy hệ gồm:
 
         forceHigherOrLower != 1
         
@@ -108,7 +108,7 @@ private static final int HOUR_VALUE_TO_DEGREES_STEP_SIZE = VISIBLE_DEGREES_STEP_
         <=> degrees = 30*m + b 
                 with m,n belong to N and 15 <= n < 30
 
-- Vậy hệ gồm 3 phương trình là:
+- Vậy hệ gồm:
         
         forceHigherOrLower != 1
         
