@@ -32,7 +32,7 @@
 #### **Path 1:** 7
 #### **Path 2:** 7 &rarr; 9 &rarr; 7
 #### **Path 3:** 7 &rarr; 9 &rarr; 11 &rarr; 9 &rarr; 7
-#### **Path 4:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 9 &rarr; 7 &rarr;
+#### **Path 4:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 9 &rarr; 7 
 #### **Path 5:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 15 &rarr; 9 &rarr; 7
 
 ## **<u>Solve paths</u>**
@@ -66,7 +66,7 @@
 #### **<u>False</u>**: wt[i-1] <= w &rarr; wt[i-1] > w
 #### **<u>False</u>**: w <= W &rarr; W = 1
 #### **<u>False</u>**: i <=n &rarr; n = 1
-#### &rarr; n = W = 1, wt[0] = 3
+#### &rarr; n = W = 1, wt[0] = 10
 ## **<u>Test case and expected results</u>**
 ## **Test 1:**
 #### **Input**: n = -1
