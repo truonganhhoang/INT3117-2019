@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Xóa bài tập đã giao</description>
+   <name>XoaBT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7d66c05-1de1-4822-a361-43e4ea6c2bfc</testCaseGuid>
+</TestCaseEntity>
