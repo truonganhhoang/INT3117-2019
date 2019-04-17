@@ -1,6 +1,6 @@
-#Báo cáo whitebox
+# Báo cáo whitebox
 
-##Code quicksort
+## Code quicksort
 
 Link repo: https://github.com/hustcc/JS-Sorting-Algorithm/blob/master/src/java/main/QuickSort.java
 ```
@@ -19,7 +19,7 @@ private int partition(int[] arr, int left, int right) {
 }
 ```
 
-##Đồ thị đường đi
-[logo]: https://github.com/khaitun1998/INT3117-2019/blob/master/NguyenDucAnh_QuickSort/flowchart.png
+## Đồ thị đường đi
+![alt text](https://github.com/khaitun1998/INT3117-2019/blob/master/NguyenDucAnh_QuickSort/flowchart.png)
 
-##Liệt kê các đường đi
+# Liệt kê các đường đi
