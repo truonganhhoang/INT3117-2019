@@ -2,7 +2,7 @@
 ### **- Họ và tên: Lê Trung Nam Nhật**
 ### **- MSV: 16021620**
 ## **<u>Source code</u>**
-#### ** https://github.com/begeekmyfriend/leetcode/blob/a147a5756860e023968364e3374dfd78892f5340/069_sqrt/sqrt.c#L10**
+#### https://github.com/begeekmyfriend/leetcode/blob/a147a5756860e023968364e3374dfd78892f5340/069_sqrt/sqrt.c#L10
 ```C++
 1 static int mySqrt(int x)
 2 {
