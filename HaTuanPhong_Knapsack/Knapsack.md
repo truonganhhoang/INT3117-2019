@@ -1,6 +1,6 @@
 ### **- Họ và tên: Hà Tuấn Phong**
 ### **- MSV: 16020263**
-## **<u>1/Source code</u>**
+## **<u>Source code</u>**
 #### https://github.com/TheAlgorithms/Java/blob/master/Dynamic%20Programming/Knapsack.java
 ```Java
 1 private static int knapSack(int W, int wt[], int val[], int n)
@@ -25,7 +25,7 @@
 20	return rv[n][W];
 21 }
 ```
-## **<u>Flowchart</u>**
+## **<u>1/Flowchart</u>**
 ![](Knapsack.png)
 
 ## **<u>2/Paths</u>**
