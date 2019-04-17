@@ -31,9 +31,13 @@ https://github.com/ryanjmurry/trianglechecker/blob/master/Triangles.cs
 
 
 **Bước 2: Liệt kê các đường đi**:
+
 Đường 1 : 1-3-5  
+
 Đường 2 : 1-3-7-9 
+
 Đường 3 : 1-3-7-11-13
+
 Đường 4 : 1-3-7-11-15
 
 
