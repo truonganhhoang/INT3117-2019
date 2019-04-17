@@ -3,7 +3,7 @@
 ### **- MSV: 16021415**
 ### **- Lớp: K61-CA-CLC2**
 ## **<u>Hàm đã chọn</u>**
-## **<u>https://github.com/wix/react-native-calendars</u>**
+## **<u>https://github.com/wix/react-native-calendars/blob/master/scripts/release.js</u>**
 ```javascript
 1 function validateEnv() {
 2        if (!process.env.JENKINS_CI) {
