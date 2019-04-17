@@ -34,3 +34,15 @@
 #### Đường đi số 2 : if(len==0) is False -> if(i < len) is False return maxsum
 #### Đường đi số 3 : if(len==0) is False -> if(i < len) is True -> if(cursum > maxsum) is True -> maxsum=cursum -> if(cursum <= 0) is True -> cursum=0 > i++
 #### Đường đi số 4 : if(len==0) is False -> if(i < len) is True -> if(cursum > maxsum) is False -> if(cursum <= 0) is False -> i++ 
+
+## **Bước 4: Lập các bộ kiểm thử**
+#### Patch 1: arr []
+#### Patch 2: arr [-2]
+#### Patch 2 :arr [-2,-3,4,-1,-2,1,5,-3]
+#### Patch 2 :arr [-2,-5,6,-2,-3,1,5,-6]
+
+## **Bước 5: Ca kiểm thử hoản chỉnh**
+#### maxsum = 0
+#### maxsum = -2
+#### maxsum = 7
+#### maxsum = 7
