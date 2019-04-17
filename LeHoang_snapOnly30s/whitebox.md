@@ -114,6 +114,32 @@ private static final int HOUR_VALUE_TO_DEGREES_STEP_SIZE = VISIBLE_DEGREES_STEP_
         
         degrees = 30*m + n 
                 (with m,n belong to N and 15 <= n < 30)
+## Bước 4: Tính giá trị mong đợi và tạo bộ kiểm thử:
+### Đuờng đi 1:
+        Input:
+                degree = 30
+                forceHigherOrLower = 1
+        Expect: 60
+### Đuờng đi 2:
+        Input:
+                forceHigherOrLower = -1 
+                degrees = 30*2 = 60       
+        Expect: 30
+### Đuờng đi 3:
+        Input:
+                forceHigherOrLower = -1
+                degrees = 30*2 + 1 = 61       
+        Expect: 60
+### Đuờng đi 4:
+        Input:
+                forceHigherOrLower = 2
+                degrees = 30*2 + 1 = 61       
+        Expect: 60
+### Đuờng đi 5:
+        Input:
+                forceHigherOrLower = 2
+                degrees = 30*2 + 15 = 75      
+        Expect: 90
 
 
 
