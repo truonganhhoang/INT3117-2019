@@ -36,4 +36,8 @@
 #### **Path 5:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 15 &rarr; 9 &rarr; 7
 
 ## **<u>Solve paths</u>**
+#### **Path 1:**
+###### **False: i <= n -> n < 0**
+###### ****
+###### ****
 ## **<u>Test case and expected results</u>**
