@@ -34,3 +34,5 @@ void oddEven(vector<int> &arr, int size)
     }
 }
 ```
+
+![alt](https://imgur.com/a/hBLuFOi)
