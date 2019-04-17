@@ -1,5 +1,5 @@
-# **BÀI TẬP KIỂM THỬ**
-### **- Họ và tên: Nguyễn Xuân Việt Cường**
+
+### **- Họ và tên: Lê Trung Nam Nhật**
 ### **- MSV: 16021620**
 ## **<u>Source code</u>**
 
