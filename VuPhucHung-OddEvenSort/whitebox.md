@@ -41,3 +41,5 @@
 ### **Đường số 5**: 1 &rarr; 2 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 10 &rarr; 16
 ### **Đường số 6**: 1 &rarr; 2 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 16
 
+## **Bước 3: Phương trình cho các đường đi 
+

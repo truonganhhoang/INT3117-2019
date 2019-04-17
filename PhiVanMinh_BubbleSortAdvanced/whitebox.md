@@ -50,7 +50,7 @@ Repo: https://github.com/TheAlgorithms/C/blob/master/sorting/OtherBubbleSort.c
 Để 5 &rarr; 4 thì arraySort[i] > arraySort[i+1] phải có giá trị false &rarr; Phần tử trước nhỏ hơn phần tử sau (5)</br>
 Để 4 &rarr; 12 thì i < n-1 phải có giá trị false &rarr; n <= i + 1, khi đó isSort = 0 (false) &rarr; Kết thúc (6)</br> 
 
-(1,2,3,4,5,6) &rarr; n >= 2 và phần tử đầu lớn hơn phần tử thứ 2 </br> 
+(1,2,3,4,5,6) &rarr; n = 2 và phần tử đầu lớn hơn phần tử thứ 2 </br> 
 
 
 ## Bước 4: Tính giá trị mong đợi và tạo bộ kiểm thử hoàn chỉnh
