@@ -1,4 +1,4 @@
-# Bài tập kiểm thử dòng điều khiển#
+# Bài tập kiểm thử dòng điều khiển
 #### Họ và tên: Vũ Thị Thanh Lâm 
 #### Mã sinh viên: 16020062
 
@@ -32,7 +32,7 @@ Repo: https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/Others/Happy_numb
 1, 1 &rarr; 2 &rarr; 13 &rarr; 14 </br>
 2, 1 &rarr; 2 &rarr; 13 &rarr; 15 </br>
 3, 1 &rarr; 2 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 4 &rarr; 10 &rarr; 11 &rarr; 2 &rarr; 13 &rarr; 14 </br>
-4, 1 &rarr; 2 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 4 &rarr; 10 &rarr; 11 &rarr; 13 &rarr; 15 </br>
+4, 1 &rarr; 2 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 4 &rarr; 10 &rarr; 11 &rarr; 2 &rarr;x  13 &rarr; 15 </br>
 ## Bước 3: Xây dựng điều kiện đường đi, tính các giá trị kiểm thử thỏa mãn
 ### Đường đi 1:
 Để 2 &rarr; 13 thì 2 phải có giá trị false &rarr; k > 9 false &rarr; k &leqslant; 9 (1) </br>
@@ -76,3 +76,19 @@ Theo dòng 8, k /= 10 (4) </br>
 - Để 13 &rarr; 14 thì  13 phải false &rarr; k == 1 false &rarr; tổng các chữ số ban đầu của k khác 1 (13) </br>
 (12) & (13) &rarr; 10 &lt; k &lt; 19
 
+## Bước 4: Tính giá trị mong đợi và tạo bộ kiểm thử hoàn chỉnh
+### Đường đi 1:
+- Input: n = 1
+- Expected Output: True
+
+### Đường đi 2:
+- Input: n = 5
+- Expected Output: False
+
+### Đường đi 3:
+- Input: n = 10
+- Expected Output: True
+
+### Đường đi 4:
+- Input: n = 12
+- Expected Output: False

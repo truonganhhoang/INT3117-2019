@@ -30,3 +30,7 @@
 #### **Đường đi số 3:** 1 &rarr; 2 &rarr; 3 &rarr; 5 &rarr; 6 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 10 &rarr; 5
 #### **Đường đi số 4:** 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 6 &rarr; 7 &rarr; 9 &rarr; 10 &rarr; 5
 ## **<u>Bước 3: Lập phương trình đường đi (Path-condition)</u>**
+#### Đường đi số 1 : if(len==0) is True return 0
+#### Đường đi số 2 : if(len==0) is False -> if(i < len) is False return maxsum
+#### Đường đi số 3 : if(len==0) is False -> if(i < len) is True -> if(cursum > maxsum) is True -> maxsum=cursum -> if(cursum <= 0) is True -> cursum=0 > i++
+#### Đường đi số 4 : if(len==0) is False -> if(i < len) is True -> if(cursum > maxsum) is False -> if(cursum <= 0) is False -> i++ 
