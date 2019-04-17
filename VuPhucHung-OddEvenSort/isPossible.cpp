@@ -1,13 +1,3 @@
-# Bài tập kiểm thử dòng điều kiện
-
-### Họ tên: Vũ Phúc Hưng 
-### MSSV: 16020237
-### Lớp: K61-CA-CLC1
-
-
-## **Hàm đã chọn**:
-
-```c++
 bool isPossible(int mat[9][9],int i,int j,int no){
     for(int x=0;x<n;x++){
         if(mat[x][j]==no||mat[i][x]==no){
@@ -25,12 +15,3 @@ bool isPossible(int mat[9][9],int i,int j,int no){
     }
     return true;
 }
-```
-
-## **Bước 1: Lập đồ thị**
-
-![](isPossible.png)
-
-## **Bước 2: Liệt kê các đường đi**
-
-
