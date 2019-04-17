@@ -29,11 +29,13 @@ https://github.com/ryanjmurry/trianglechecker/blob/master/Triangles.cs
 **Bước 1: Lập đồ thị**:
 <img src="https://i.imgur.com/dh8JY5r.jpg" alt="enter image description here">
 
+
 **Bước 2: Liệt kê các đường đi**:
 Đường 1 : 1-3-5  
 Đường 2 : 1-3-7-9 
 Đường 3 : 1-3-7-11-13
 Đường 4 : 1-3-7-11-15
+
 
 **Bước 3: Lập phương trình đường đi**:
 Đường 1 : 1-3-5 : 
@@ -47,6 +49,8 @@ https://github.com/ryanjmurry/trianglechecker/blob/master/Triangles.cs
 
 Đường 4 : 1-3-7-11-15
 (_side1 == _side2 && _side1 == _side3) || (_side1 != _side2 && _side1 != _side3 && _side2 != _side3 )
+
+
 **Bước 4: Giải phương trình đường đi và tạo bộ kiểm thử**
 Đường 1 : 1-3-5  
 input: _side1 =5, _side2 =5, _side3 =4.
