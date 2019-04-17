@@ -24,6 +24,8 @@
 
 ## Bước 1: Lập đồ thị
 
+[![](https://raw.githubusercontent.com/tungxuan1998/INT3117-2019/master/NguyenXuanTung_InterpolationSearch/Interpolation%20Search.png)](https://github.com/tungxuan1998/INT3117-2019/blob/master/NguyenXuanTung_InterpolationSearch/Interpolation%20Search.png)
+
 ## Bước 2: Liệt kê các đường đi
 
 ## Bước 3: Lập phương trình đường đi
