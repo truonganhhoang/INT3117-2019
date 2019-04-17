@@ -35,4 +35,10 @@ void oddEven(vector<int> &arr, int size)
 }
 ```
 
+## **Bước 1: Lập đồ thị**
+
 ![](oddEvenSort.png)
+
+## **Bước 2: Liệt kê các đường đi**
+
+
