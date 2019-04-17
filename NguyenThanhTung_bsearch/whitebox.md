@@ -19,7 +19,7 @@ Link github: [bin_search.py](https://github.com/qiwsir/algorithm/blob/master/bin
 10				return mid
 11		return -1
 ```
-## **<u>Bước 1</u>: Lập đồ thị**
+## **<u>Bước 1</u>: Lập sơ đồ thuật toán**
 ![](FlowChart.png)
 
 
