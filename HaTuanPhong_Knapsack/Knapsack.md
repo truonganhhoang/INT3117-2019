@@ -70,10 +70,10 @@
 ## **<u>4/Test case and expected results</u>**
 ## **Test 1:**
 #### **Input**: n = -1
-#### **Expected output**: 
+#### **Expected output**: 2D array with no values
 ## **Test 2:**
 #### **Input**: n = 0, w = -1
-#### **Expected output**: 
+#### **Expected output**: 2D array with no values
 ## **Test 3:**
 #### **Input**: n = W = 0
 #### **Expected output**: r[0][0] = 0
