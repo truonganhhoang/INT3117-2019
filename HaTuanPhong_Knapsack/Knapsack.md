@@ -1,6 +1,6 @@
 ### **- Họ và tên: Hà Tuấn Phong**
 ### **- MSV: 16020263**
-## **<u>Source code</u>**
+## **<u>1/Source code</u>**
 #### https://github.com/TheAlgorithms/Java/blob/master/Dynamic%20Programming/Knapsack.java
 ```Java
 1 private static int knapSack(int W, int wt[], int val[], int n)
@@ -28,14 +28,14 @@
 ## **<u>Flowchart</u>**
 ![](Knapsack.png)
 
-## **<u>Paths</u>**
+## **<u>2/Paths</u>**
 #### **Path 1:** 7
 #### **Path 2:** 7 &rarr; 9 &rarr; 7
 #### **Path 3:** 7 &rarr; 9 &rarr; 11 &rarr; 9 &rarr; 7
 #### **Path 4:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 9 &rarr; 7 
 #### **Path 5:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 15 &rarr; 9 &rarr; 7
 
-## **<u>Solve paths</u>**
+## **<u>3/Solve paths</u>**
 ## **Path 1:**
 #### **<u>False</u>**: i <= n &rarr; n < 0
 #### &rarr; n < 0
@@ -67,7 +67,7 @@
 #### **<u>False</u>**: w <= W &rarr; W = 1
 #### **<u>False</u>**: i <=n &rarr; n = 1
 #### &rarr; n = W = 1, wt[0] = 10
-## **<u>Test case and expected results</u>**
+## **<u>4/Test case and expected results</u>**
 ## **Test 1:**
 #### **Input**: n = -1
 #### **Expected output**: 
