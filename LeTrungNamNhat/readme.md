@@ -1,5 +1,5 @@
 
-### **- Họ và tên: Lê Trung Nam Nhật**
+### **- Name: Lê Trung Nam Nhật**
 ### **- MSV: 16021620**
 ## **<u>Source code</u>**
 
