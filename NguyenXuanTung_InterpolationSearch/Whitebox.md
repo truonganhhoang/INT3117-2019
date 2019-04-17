@@ -21,3 +21,11 @@
     		}
     		return -1;
     	}
+
+## Bước 1: Lập đồ thị
+
+## Bước 2: Liệt kê các đường đi
+
+## Bước 3: Lập phương trình đường đi
+
+## Bước 4: Giải quyết phương trình
