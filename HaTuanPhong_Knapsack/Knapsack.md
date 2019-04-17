@@ -36,10 +36,16 @@
 #### **Path 5:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 15 &rarr; 9 &rarr; 7
 
 ## **<u>Solve paths</u>**
-#### **Path 1:**
+## **Path 1:**
 #### **<u>False</u>: i <= n -> n < 0**
-#### **Path 2:**
+## **Path 2:**
 #### **<u>True</u>: i <= n -> n >= 0**
 #### **<u>False</u>: w <= W -> W < 0**
-#### **Path 3:**
+#### **<u>False</u>: i <= n -> n = 0**
+## **Path 3:**
+#### **<u>True</u>: i <= n -> n >= 0**
+#### **<u>True</u>: w <= W -> W >= 0**
+#### **<u>True</u>: i == 0 || w == 0**
+#### **<u>False</u>: w <= W -> W = 0**
+#### **<u>False</u>: i <= N -> n = 0**
 ## **<u>Test case and expected results</u>**
