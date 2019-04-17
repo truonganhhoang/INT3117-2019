@@ -4,26 +4,26 @@
 ## **<u>Source code</u>**
 
 ```C++
-static int mySqrt(int x)
-{
-    if (x == 0) {												//1
-        return 0;												//2
-    }															//3
+1 static int mySqrt(int x)
+2 {
+3    if (x == 0) {												
+4         return 0;												
+5     }															
 
-    unsigned int left = 1;										//4
-    unsigned int right = (unsigned int) x;						//5
-    for (; ;) {													//6
-        unsigned int mid = left + (right - left) / 2;			//7
-        if (mid > x/mid) {										//8
-            right = mid;										//9
-        } else {												//10
-            if (mid + 1 > x/(mid + 1)) {						//11
-                return mid;										//12
-            } else {											//13
-                left = mid;										//14
-            }													//15
-        }														//16
-    }															//17
+6     unsigned int left = 1;										
+7     unsigned int right = (unsigned int) x;						
+8     for (; ;) {													
+9         unsigned int mid = left + (right - left) / 2;			
+10        if (mid > x/mid) {										
+11           right = mid;										
+12        } else {												
+13            if (mid + 1 > x/(mid + 1)) {						
+14                return mid;										
+15            } else {											
+16                left = mid;										
+17            }													
+18        }														
+    }															
 }			
 ```
 ## **<u>Step 1: FlowChart</u>**
