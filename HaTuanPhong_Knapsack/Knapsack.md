@@ -31,6 +31,9 @@
 ## **<u>Paths</u>**
 #### **Path 1:** 7
 #### **Path 2:** 7 &rarr; 9 &rarr; 7
-#### **Path 3:** 7 &rarr; 9 &rarr; 11 &rarr; 9 &rarr; 
+#### **Path 3:** 7 &rarr; 9 &rarr; 11 &rarr; 9 &rarr; 7
 #### **Path 4:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 9 &rarr; 7
 #### **Path 5:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 15 &rarr; 9 &rarr; 7
+
+## **<u>Solve paths</u>**
+## **<u>Test case and expected results</u>**
