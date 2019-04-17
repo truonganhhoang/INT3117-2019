@@ -7,7 +7,7 @@
 ## **Hàm đã chọn:**
 
 ```java
-1   	static int largestContiguousSum(int arr) {
+1   	static int largestContiguousSum(int arr[]) {
 2		int i,len=arr.length,cursum=0,maxsum=Integer.MIN_VALUE;
 3		if(len==0)	//empty array
 4		for(i=0;i<len;i++){
