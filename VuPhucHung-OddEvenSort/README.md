@@ -34,4 +34,10 @@
 
 ## **Bước 2: Liệt kê các đường đi**
 
+### **Đường số 1**: 1 &rarr; 2 &rarr; 3 &rarr; 4
+### **Đường số 2**: 1 &rarr; 2 &rarr; 3 &rarr; 16
+### **Đường số 3**: 1 &rarr; 2 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 10 &rarr; 11 &rarr; 12 
+### **Đường số 4**: 1 &rarr; 2 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 10 &rarr; 11 &rarr; 16
+### **Đường số 5**: 1 &rarr; 2 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 10 &rarr; 16
+### **Đường số 6**: 1 &rarr; 2 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 16
 
