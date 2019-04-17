@@ -103,7 +103,7 @@ private static final int HOUR_VALUE_TO_DEGREES_STEP_SIZE = VISIBLE_DEGREES_STEP_
 ### Đuờng đi 5: 
         Giống đường đi 4 nhưng :
         (degrees - floor) >= (ceiling - degrees)
-        <=> degrees = 30*m + b 
+        <=> degrees = 30*m + n 
                 with m,n belong to N and 15 <= n < 30
 
 - Vậy hệ gồm:
