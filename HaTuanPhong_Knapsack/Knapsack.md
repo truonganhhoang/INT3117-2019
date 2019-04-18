@@ -25,5 +25,62 @@
 20	return rv[n][W];
 21 }
 ```
-## **<u>Flowchart</u>**
+## **<u>1/Flowchart</u>**
 ![](Knapsack.png)
+
+## **<u>2/Paths</u>**
+#### **Path 1:** 7
+#### **Path 2:** 7 &rarr; 9 &rarr; 7
+#### **Path 3:** 7 &rarr; 9 &rarr; 11 &rarr; 9 &rarr; 7
+#### **Path 4:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 9 &rarr; 7 
+#### **Path 5:** 7 &rarr; 9 &rarr; 11 &rarr; 13 &rarr; 15 &rarr; 9 &rarr; 7
+
+## **<u>3/Solve paths</u>**
+## **Path 1:**
+#### **<u>False</u>**: i <= n &rarr; n < 0
+#### &rarr; n < 0
+## **Path 2:**
+#### **<u>True</u>**: i <= n &rarr; n >= 0
+#### **<u>False</u>**: w <= W &rarr; W < 0
+#### **<u>False</u>**: i <= n &rarr; n = 0
+#### &rarr; n = 0, W < 0
+## **Path 3:**
+#### **<u>True</u>**: i <= n &rarr; n >= 0
+#### **<u>True</u>**: w <= W &rarr; W >= 0
+#### **<u>True</u>**: i == 0 || w == 0
+#### **<u>False</u>**: w <= W &rarr; W = 0
+#### **<u>False</u>**: i <= N &rarr; n = 0
+#### &rarr; n = W = 0
+## **Path 4:**
+#### **<u>True</u>**: i <= n &rarr; n >= 0
+#### **<u>True</u>**: w <= W &rarr; W >= 0
+#### **<u>False</u>**: i == 0 || w == 0 &rarr; i > 0 && w > 0 &rarr; n > 0 && w > 0
+#### **<u>True</u>**: wt[i-1] <= w;
+#### **<u>False</u>**: w <= W &rarr; W = 1
+#### **<u>False</u>**: i <=n &rarr; n = 1
+#### &rarr; n = W = 1, wt[0] = 0
+## **Path 5:**
+#### **<u>True</u>**: i <= n &rarr; n >= 0
+#### **<u>True</u>**: w <= W &rarr; W >= 0
+#### **<u>False</u>**: i == 0 || w == 0 &rarr; i > 0 && w > 0 &rarr; n > 0 && w > 0
+#### **<u>False</u>**: wt[i-1] <= w &rarr; wt[i-1] > w
+#### **<u>False</u>**: w <= W &rarr; W = 1
+#### **<u>False</u>**: i <=n &rarr; n = 1
+#### &rarr; n = W = 1, wt[0] = 10
+## **<u>4/Test case and expected results</u>**
+## **Test 1:**
+#### **Input**: n = -1
+#### **Expected output**: 2D array with no values
+## **Test 2:**
+#### **Input**: n = 0, w = -1
+#### **Expected output**: 2D array with no values
+## **Test 3:**
+#### **Input**: n = W = 0
+#### **Expected output**: r[0][0] = 0
+## **Test 4:**
+#### **Input**: n = W = 1, wt[0] = 0
+#### **Expected output**: not yet defined
+## **Test 5:**
+#### **Input**: n = W = 1, wt[0] = 10
+#### **Expected output**: not yet defined
+
