@@ -30,10 +30,10 @@
 ![](BinarySearchH.png)
 
 ## **Bước 2: Find list of roads **
-#### Path 1: 1 &arr; 2
-#### Path 2: 1 &arr; 2 &arr; 3
-#### Path 3: 1 &arr; 2 &arr; 3 @arr; 4
-#### Path 4: 1 &arr; 2 &arr; 3 @arr; 4 @arr; 5
+#### Path 1: 1 &rarr; 2
+#### Path 2: 1 &rarr; 2 &rarr; 3
+#### Path 3: 1 &rarr; 2 &rarr; 3 &rarr; 4
+#### Path 4: 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5
 
 ## **Step 3 : Path condition**
 #### Path 1 : right < left
