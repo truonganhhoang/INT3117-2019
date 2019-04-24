@@ -124,7 +124,7 @@
         =>sx = 6
         =>sy = 5
     output :
-        return false
+        return true
 
 ### Đường 6
     input : 
@@ -132,5 +132,4 @@
         =>sx = 2
         =>sy = 3
     output :
-        return false
-
+        return true
