@@ -41,5 +41,55 @@
 ### **Đường số 5**: 1 &rarr; 2 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 10 &rarr; 16
 ### **Đường số 6**: 1 &rarr; 2 &rarr; 7 &rarr; 8 &rarr; 9 &rarr; 16
 
-## **Bước 3: Phương trình cho các đường đi 
+## **Bước 3: Lập Phương trình của các đường đi**
+
+### Đường 1:
+    x = 0, x < n 
+    mat[x][j]==no/mat[i][x]==no
+    x++
+    false
+
+### Đường 2: 
+    x = 0, x < n
+    mat[x][j]!=no/mat[i][x]!=no
+    true
+
+
+### Đường 3;
+    x > n
+    sx = (i/3)*3;
+    sy = (j/3)*3;
+    x = sx, x < sx + 3
+    y = sy, y < sy + 3
+    mat[x][y] == no
+    y++
+    x++
+    false
+
+### Đường 4 
+    x > n
+    sx = (i/3)*3;
+    sy = (j/3)*3;
+    x = sx, x < sx + 3
+    y = sy, y < sy + 3
+    mat[x][y] /= no
+    false
+
+### Đường 5 
+    x > n
+    sx = (i/3)*3;
+    sy = (j/3)*3;
+    x = sx, x < sx + 3
+    y = sy, y > sy + 3
+    true
+
+### Đường 6
+    x > n
+    sx = (i/3)*3;
+    sy = (j/3)*3;
+    x = sx, x > sx + 3
+    true
+
+
+## **Bước 4: Tính giá trị mong đợi và tạo bộ kiểm thử**
 
