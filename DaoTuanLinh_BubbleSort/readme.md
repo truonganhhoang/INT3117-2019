@@ -9,9 +9,9 @@
 ```sh
 1.  int i, j; 
 2.  for (i = 0; i < n-1; i++)     
-3.  for (j = 0; j < n-i-1; j++)
-4.    if (arr[j] > arr[j+1]) 
-5.      swap(&arr[j], &arr[j+1]); 
+3.    for (j = 0; j < n-i-1; j++)
+4.      if (arr[j] > arr[j+1]) 
+5.        swap(&arr[j], &arr[j+1]); 
 ```
 
 ## **Bước 1: Lập đồ thị**
