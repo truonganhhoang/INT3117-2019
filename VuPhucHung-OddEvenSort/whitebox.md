@@ -92,4 +92,44 @@
 
 
 ## **Bước 4: Tính giá trị mong đợi và tạo bộ kiểm thử**
+### Đường 1:
+    input : 
+        mat[9][9],2,3,5
+    output :
+        return false
+### Đường 2: 
+    input : 
+        mat[9][9],3,4,6
+    output :
+        return true
+### Đường 3;
+    input : 
+        mat[9][9],3,3,5
+        =>sx = 3
+        =>sy = 3
+    output :
+        return false
 
+### Đường 4 
+    input : 
+        mat[9][9],2,2,5
+        =>sx = 2
+        =>sy = 2
+    output :
+        return false
+
+### Đường 5 
+    input : 
+        mat[9][9],6,5,10
+        =>sx = 6
+        =>sy = 5
+    output :
+        return true
+
+### Đường 6
+    input : 
+        mat[9][9],2,3,8
+        =>sx = 2
+        =>sy = 3
+    output :
+        return true
