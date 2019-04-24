@@ -5,11 +5,7 @@
 <<<<<<< HEAD
 ## **<u>Hàm đã chọn</u>**
 ## **<u>https://github.com/wix/react-native-calendars/blob/master/scripts/release.js</u>**
-=======
-### **- Lớp: K61-CA-CLC2**
-## **<u>Hàm đã chọn</u>**
-## **<u>https://github.com/wix/react-native-calendars</u>**
->>>>>>> 485d4ca290a60e6e42b409d8e331090b2706846f
+
 ```javascript
 1 function validateEnv() {
 2        if (!process.env.JENKINS_CI) {
@@ -36,3 +32,32 @@
 #### **Đường đi số 5:** 1 &rarr; 2 &rarr; 4 &rarr; 6 &rarr; 9
 #### **Đường đi số 6:** 1 &rarr; 2 &rarr; 4 &rarr; 5 &rarr; 8 &rarr; 9
 ## **<u>Bước 3: Lập phương trình đường đi</u>**
+
+## Path Equations
+`type = value`
+#### 1: True if process.env.JENKINS_CI = false && process.env.JENKINS_MASTER = true && process.env.GIT_BRANCH === ONLY_ON_BRANCH
+#### 2: True if process.env.JENKINS_CI = true && process.env.JENKINS_MASTER = true && process.env.GIT_BRANCH === ONLY_ON_BRANCH
+#### 3: True if process.env.JENKINS_CI = false && process.env.JENKINS_MASTER = false
+#### 4: True if process.env.JENKINS_CI = false && process.env.JENKINS_MASTER = true
+#### 5: True if process.env.JENKINS_CI = true && !process.env.JENKINS_MASTER = false
+#### 6: True if process.env.JENKINS_CI = true && process.env.JENKINS_MASTER = true && process.env.GIT_BRANCH !== ONLY_ON_BRANCH
+
+## Solving
+- Test case 1:
+	- Input: process.env.JENKINS_CI = false && process.env.JENKINS_MASTER = true && process.env.GIT_BRANCH === ONLY_ON_BRANCH
+	- Output: true
+- Test case 2:
+	- Input: process.env.JENKINS_CI = true && process.env.JENKINS_MASTER = true && process.env.GIT_BRANCH === ONLY_ON_BRANCH
+	- Output: true
+- Test case 3:
+	- Input: process.env.JENKINS_CI = false && process.env.JENKINS_MASTER = false
+	- Output: false
+- Test case 4:
+	- Input: process.env.JENKINS_CI = false && process.env.JENKINS_MASTER = true
+	- Output: false
+- Test case 5:
+	- Input: process.env.JENKINS_CI = true && !process.env.JENKINS_MASTER = false
+	- Output: false
+- Test case 6:
+	- Input: rocess.env.JENKINS_CI = true && process.env.GIT_BRANCH !== ONLY_ON_BRANCH
+	- Output: false
