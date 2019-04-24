@@ -34,7 +34,10 @@
 
 ## **Bước 3: Lập phương trình đường đi (Path-condition)**
 
-### **Đường số 1**: 1 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5
+### **Đường số 1**: i < n-1; j < n-i-1;  arr[j] > arr[j+1]
+### **Đường số 2**: i < m-1; j < n-i-1; arr[j] < arr[j+1]
+### **Đường số 3**: i < m-1; j > n-i-1;
+### **Đường số 4**: n = 1;
 
 ```sh
 
