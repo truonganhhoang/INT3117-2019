@@ -16,7 +16,7 @@
     - Thành viên nhóm không giới hạn
     - Báo cáo PDF
     - Cho phép quét đa dạng 
-    - Nhiều mục tiêu môi trường - Sản xuất (quét không xâm nhập) và Thử nghiệm (quét xâm nhập và quét hoàn chỉnh)
+    - Nhiều mục tiêu môi trường - Phát triển (quét không xâm nhập) và Thử nghiệm (quét xâm nhập và quét hoàn chỉnh)
   - Trang chủ https://probely.com/
 2. <b>Cài đặt và áp dụng</b> vào https://hoclieu.vn ( kết hợp giới thiệu): (link youtube)
 3. <big> <b> <i> Kết quả </i> </b> </big>
