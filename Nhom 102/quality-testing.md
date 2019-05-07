@@ -18,7 +18,7 @@
     - Cho phép quét đa dạng 
     - Nhiều mục tiêu môi trường - Phát triển (quét không xâm nhập) và Thử nghiệm (quét xâm nhập và quét hoàn chỉnh)
   - Trang chủ https://probely.com/
-2. <b>Cài đặt và áp dụng</b> vào https://hoclieu.vn ( kết hợp giới thiệu): (link youtube)
+2. <b>Cài đặt và áp dụng</b> vào https://hoclieu.vn ( kết hợp giới thiệu): video: https://youtu.be/6UpjhahzMqU
 3. <big> <b> <i> Kết quả </i> </b> </big>
   - Phát hiện 4 lỗ hổng ở trang https://hoclieu.vn:
     - Referrer policy not defined
