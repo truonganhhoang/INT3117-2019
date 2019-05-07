@@ -12,9 +12,9 @@
   - Các tính năng tiêu biểu của Probely:
     - Quét tìm SQL, XSS, OWASP TOP10 và hơn 5000 lỗ hổng, bao gồm 1000 lỗ hổng WordPress và Joomla
     - API đầy đủ - Tất cả các tính năng của Chắc chắn cũng có sẵn thông qua API
-    - Tích hợp với các công cụ CI, Slack và Jira của bạn
+    - Tích hợp với các công cụ CI, Slack và Jira
     - Thành viên nhóm không giới hạn
-    - Báo cáo PDF để giới thiệu bảo mật của bạn
+    - Báo cáo PDF
     - Cho phép quét đa dạng 
     - Nhiều mục tiêu môi trường - Sản xuất (quét không xâm nhập) và Thử nghiệm (quét xâm nhập và quét hoàn chỉnh)
   - Trang chủ https://probely.com/
