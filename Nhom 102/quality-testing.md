@@ -17,9 +17,20 @@
     - Báo cáo PDF để giới thiệu bảo mật của bạn
     - Cho phép quét đa dạng 
     - Nhiều mục tiêu môi trường - Sản xuất (quét không xâm nhập) và Thử nghiệm (quét xâm nhập và quét hoàn chỉnh)
-2. Cài đặt và áp dụng vào https://hoclieu.vn ( kết hợp giới thiệu): (link youtube)
-3. Kết quả 
-
+  - Trang chủ https://probely.com/
+2. <b>Cài đặt và áp dụng</b> vào https://hoclieu.vn ( kết hợp giới thiệu): (link youtube)
+3. <big> <b> <i> Kết quả </i> </b> </big>
+  - Phát hiện 4 lỗ hổng ở trang https://hoclieu.vn:
+    - Referrer policy not defined
+    - Missing clickjacking protection
+    - HSTS header not enforced
+    - Browser content sniffing allowed
+  - Phát hiện 5 lỗ hổng ở trang https://hoclieu.sachmem.vn:
+    - Referrer policy not defined
+    - Missing clickjacking protection
+    - HSTS header not enforced
+    - Browser content sniffing allowed
+    - Outdated TLS protocol version 1.0 supported
  
 <br>
 <br>
