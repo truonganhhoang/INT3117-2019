@@ -43,13 +43,16 @@
   - Chương trình có thể được chạy bằng máy tính của bạn,các dòng lệnh, hoặc thông qua Tiện ích Google Chrome hoặc Firefox . Total Validator tự động kiểm tra các trang web đơn, các nhóm của các trang web, và mật khẩu hoặc các hạn chế của trang. Các định dạng được hỗ trợ bao gồm HTML và XHTML.
 <br>
   - Trang chủ : https://www.totalvalidator.com
+<br>
 2. <b> Cài đặt và áp dụng</b> vào https://hoclieu.vn ( kết hợp giới thiệu): video:https://www.youtube.com/watch?v=m3pvttG5YWw
+<br>
 3. <b> Kết quả </b>https://hoclieu.vn
+<br>
   2 Error : HTML [2] 
-    - Summary :This element is not recognised
-    - Detail: This error is often raised when an old element has been used when validating against a newer HTML specification. Alternatively you may have misspelled the name.
-  1 Warning: WCAG2 A[1]
-    - Summary: [WCAG2 2.4.1 (A)] Use heading elements to convey structure
-    - Detail: Many assistive technologies provide navigation using headings, including skipping navigational links. If your document has any structure you should use heading markup to convey the structure of the content. Even a single header will make it easier for users. See https://www.w3.org/TR/WCAG20-TECHS/H69.html (displayed in new window).
+    - Summary :This element is not recognised<br>
+    - Detail: This error is often raised when an old element has been used when validating against a newer HTML specification. Alternatively you may have misspelled the name.<br>
+  1 Warning: WCAG2 A[1]<br>
+    - Summary: [WCAG2 2.4.1 (A)] Use heading elements to convey structure<br>
+    - Detail: Many assistive technologies provide navigation using headings, including skipping navigational links. If your document has any structure you should use heading markup to convey the structure of the content. Even a single header will make it easier for users.<br> See https://www.w3.org/TR/WCAG20-TECHS/H69.html (displayed in new window).<br>
 
  
